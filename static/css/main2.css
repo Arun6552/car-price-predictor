@@ -1,0 +1,27 @@
+.{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.bg-dark {
+    background-image:linear-gradient(rgb(4,9,30,0.7),rgb(4,9,30,0.7)),url(../image/car2.jpg);
+}
+
+h1,h5{
+    text-align: center;
+    padding-top: 20px;
+    color: goldenrod;
+}
+
+.cardcss{
+
+    margin-top : 20px;
+    margin-bottom : 30px;
+    left: 60%;
+    background-color: grey;
+}
+h2{
+    text-align: center;
+}
+
