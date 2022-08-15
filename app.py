@@ -3,6 +3,7 @@ from flask_cors import CORS,cross_origin
 import pickle
 import pandas as pd
 import numpy as np
+import os 
 
 app=Flask(__name__)
 cors=CORS(app)
@@ -39,6 +40,8 @@ def predict():
     return str(np.round(prediction[0],2))
 
 
-
-if __name__=='__main__':
-    app.run()
+if __name__ == '__main__':
+    port = int(os.getenv('PORT'))
+    print("Starting app on port %d" % port)
+    app.run(debug=False, port=port, host='0.0.0.0')
+    # app.run(debug=True)
