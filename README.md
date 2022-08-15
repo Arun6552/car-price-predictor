@@ -10,7 +10,4 @@ It is an project  of Machine Learing where Regression Algorithm used to predict 
 Deployment link :- https://predicts-car-price.herokuapp.com/
 ```
 
-```
-![](img/ss1.png)
-
-```
+![](img/ss1.jpg)
