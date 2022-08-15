@@ -5,10 +5,7 @@ import pandas as pd
 import numpy as np
 import os 
 
-app=Flask(__name__,
-            static_url_path='', 
-            static_folder='web/static',
-            template_folder='web/templates')
+app=Flask(__name__)
 cors=CORS(app)
 model=pickle.load(open('RandomForestRegressor.pkl','rb'))
 car=pd.read_csv('cleaned_data.csv')
