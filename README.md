@@ -7,7 +7,7 @@ It is an project  of Machine Learing where Regression Algorithm used to predict 
 
 
 ```
-Deployment link :- [https://predicts-car-price.herokuapp.com/](https://car-price-predictor-h50p.onrender.com/)https://car-price-predictor-h50p.onrender.com/
+Deployment link :- [https://car-price-predictor-h50p.onrender.com/]
 ```
 
 ![](img/ss1.jpg)
